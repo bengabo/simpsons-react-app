@@ -1,0 +1,31 @@
+.QuoteCard {
+  display: flex;
+  padding: 1.25em;
+  width: 400px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.QuoteCard img {
+  display: flex;
+  max-height: 120px;
+  margin-right: 1.5rem;
+}
+
+.text{
+  line-height: 20%
+}
+
+.quote {
+  font-size: 1.5em;
+}
+
+.name {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.QuoteCard blockquote {
+  margin: 0 0 1rem 0;
+}

@@ -7,3 +7,12 @@
 .Navbar * {
   margin: 0;
 }
+
+.Navbar p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.donut{
+  width: 27%;
+}

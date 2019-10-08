@@ -1,12 +1,13 @@
 import React from 'react';
-
-import './Navbar.css'
+import './Navbar.css';
+import logo from '../img/donut.png';
 
 function Navbar() {
   return (
     <div className="Navbar">
       <nav>
-        <img title="Homer Simpson" alt="Homer Simpson" src="https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png"/>
+        <img className="donut" title="Donut" alt="Donut" src={logo}/>
+        <p>Simpsons App </p>
       </nav>
     </div>
   );
